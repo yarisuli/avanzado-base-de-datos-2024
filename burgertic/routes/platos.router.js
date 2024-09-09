@@ -1,6 +1,6 @@
 import Router from "express";
 import PlatosController from "../controllers/platos.controller.js";
-import { verifyAdmin } from "../middlewares/auth.middleware.js";
+import { verifyToken, verifyAdmin } from "../middlewares/auth.middleware.js";
 
 const router = Router();
 
