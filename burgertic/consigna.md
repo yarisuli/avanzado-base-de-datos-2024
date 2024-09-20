@@ -173,4 +173,4 @@ Utilizar el _status code_ adecuado para cada caso.
 
 ### Entrega
 
-El formato de entrega se definirá más adelante. La fecha límite de entrega será el día 20/09/2024 a las 23:59hs. La corrección será acompañada de una defensa oral en el caso en que el docente lo considere necesario, que se realizará en la semana posterior a la entrega.
+La entrega se realiza en [este formulario](https://forms.gle/nHSAUfdAS72EYpzh9). La fecha límite de entrega será el día 20/09/2024 a las 23:59hs. La corrección será acompañada de una defensa oral en el caso en que el docente lo considere necesario, que se realizará en la semana posterior a la entrega.
