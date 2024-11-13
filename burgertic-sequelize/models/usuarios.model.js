@@ -1,29 +1,35 @@
 import { DataTypes, Model } from "sequelize";
 import { sequelize } from "../db.js";
 
-export class PedidosPlatos extends Model {}
+export class Usuario extends Model {}
 
-PedidosPlatos.init(
+Usuario.init(
     {
         id: {
             type: DataTypes.INTEGER,
-            autoIncrement: true,
+            allowNull: true,
             primaryKey: true,
         },
-        id_pedido: {
-            type: DataTypes.INTEGER,
+        nombre: {
+            type: DataTypes.STRING,
         },
-        id_plato: {
-            type: DataTypes.INTEGER,
+        apellido: {
+            type:DataTypes.STRING,
         },
-        cantidad: {
-            type: DataTypes.INTEGER,
-        }
-        
+        email: {
+            type:DataTypes.STRING,
+        },
+        password: {
+            type: DataTypes.STRING,
+        },
+        admin: {
+            type:DataTypes.BOOLEAN,
+        },
     },
     {
         sequelize,
-        modelName: "PedidosPlatos",
+        modelName: "Usuarios",
         timestamps: false,
     }
-);
+    );
+    
